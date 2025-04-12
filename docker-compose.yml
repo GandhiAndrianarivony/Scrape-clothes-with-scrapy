@@ -1,0 +1,8 @@
+services:
+  splash:
+    image: scrapinghub/splash
+    command:
+      - --max-timeout=3600
+      - --disable-lua-sandbox
+    ports:
+      - "8050:8050"
