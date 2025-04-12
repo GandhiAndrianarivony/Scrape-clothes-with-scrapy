@@ -13,7 +13,7 @@ class PageMixin:
     @property
     def driver(self) -> webdriver.Chrome:
         chromedriver_path = (
-            "./chromedriver/135.0.7049.42 chromedriver-linux64/chromedriver"
+            "./chromedriver/chromedriver/chromedriver"
         )
         service = Service(chromedriver_path)
         options = Options()
